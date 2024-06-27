@@ -1,0 +1,278 @@
+@charset "UTF-8";
+
+.wrap{
+    width: 100%;
+}
+
+.header{}
+
+.header .h_top{
+    margin: 0 auto;
+    width: 1200px;
+    height: 104px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .h_bot{
+    width: 1200px;
+    height: 63px;
+    margin: 0 auto;
+    
+}
+
+.h_bot ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h_bot ul li{}
+
+.h_bot ul li a{
+    display: block;
+    text-align: center;
+    line-height: 63px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.h_bot ul li a:hover{
+    text-decoration: underline;
+}
+
+.h_top div{}
+
+.h_top_img1{
+    width: 341px;
+    height: 64px;
+    background: url('../img/header-left-210105.png') no-repeat;
+}
+
+.h_top_img2{
+    width: 236px;
+    height: 62px;
+    background: url('../img/logo1x_200708.png') no-repeat;
+    margin-right: 130px;
+    
+}
+
+.h_top_img3{
+    width: 240px;
+    height: 54px;
+    background: url('../img/header-right-200304.png') no-repeat;
+}
+
+.slide{
+    width: 1920px;
+    height: 820px;
+    background: url('../img/main_slide.gif') no-repeat;
+    
+}
+
+.cont1{
+    height: 747px;
+    text-align: center;
+}
+
+.cont1 div{
+    display: inline-block;
+}
+
+.cont1 h2{
+    text-align: center;
+    padding: 100px 0;
+}
+
+.profile1 a{
+    display: block;
+    width: 372px;
+    height: 498px;
+    background: url('../img/dr13.png') no-repeat;
+    opacity: 0.5;
+}
+
+.profile2 a{
+    display: block;
+    width: 372px;
+    height: 498px;
+    background: url('../img/dr01.png') no-repeat;
+    opacity: 0.5;
+}
+
+.profile3 a{
+    display: block;
+    width: 372px;
+    height: 498px;
+    background: url('../img/dr14.png') no-repeat;
+    opacity: 0.5;
+}
+
+.profile1 a:hover{
+    opacity: 1;
+}
+.profile2 a:hover{
+    opacity: 1;
+}
+.profile3 a:hover{
+    opacity: 1;
+}
+
+.p_name{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.p_name span{
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 25px;
+    border-radius: 40px;
+    font-weight: lighter;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.cont2{
+    width: 1920px;
+    height: 346px;
+    padding: 100px 0;
+}
+
+.cont2_inner{
+    padding: 50px 0;
+    margin: 0 auto;
+    width: 1440px;
+    height: 346px;
+    background: url('../img/');
+}
+
+.cont2_inner ul{
+    text-align: center;
+}
+
+.cont2_inner ul li{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+.cont2_inner ul li a{
+    display: block;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 310px;
+    height: 340px;
+    
+}
+
+.inner_cont{
+    width: 310px;
+    height: 340px;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: cornflowerblue;
+    padding: 20px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.inner_cont h2{
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.inner_cont p{
+    font-size: 25px;
+    color: white;
+    line-height: 1.8;
+}
+
+.inner_cont:hover{
+    opacity: 1;
+}
+
+.cont3{
+    clear: both;
+    width: 1440px;
+    height: 653px;
+    margin: 300px auto 0;
+}
+
+.cont3_header{
+    text-align: center;
+}
+
+.cont3 .yt{
+    margin: 0 auto;
+    width: 136px;
+}
+
+.cont3 h2{
+    padding: 50px 0;
+    color: cornflowerblue;
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.cont3 h2 span{
+    font-weight: bold;
+    font-size: 40px;
+    color: blue;
+}
+
+
+
+.cont3_cont{
+    overflow: hidden;
+}
+
+.cont3_cont iframe{
+    width: 680px;
+    height: 383px;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+}
+
+.cont3_cont ul {
+    width: 600px;
+    height: 400px;
+    display: inline-block;
+    margin-left: 70px;
+
+}
+
+.cont3_cont ul li{
+    display: inline-block;
+}
+
+.cont3_cont li a{
+    display: block;
+    clear: both;
+}
+
+.cont3_cont li p{
+    padding-top: 10px;
+}
+
+.cont3_box{
+    margin: 20px auto;
+    width: 220px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cont3_box a{
+    display: block;
+}
