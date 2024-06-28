@@ -370,8 +370,9 @@
 }
 
 .cont8{
-    height: 450px;
-    background: url('../img/review-bg.jpg');
+    height: 480px;
+    background: url('../img/review-bg.jpg') no-repeat;
+    background-size: cover;
 }
 
 .cont8_inner{
@@ -413,7 +414,7 @@
 .cont8_inner p{
     display: block;
     font-size: 20px;
-    line-height: 1.9;
+    line-height: 1.7;
 }
 
 .cont9{
