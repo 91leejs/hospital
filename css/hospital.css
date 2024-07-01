@@ -8,7 +8,7 @@
 
 #header .h_top{
     margin: 0 auto;
-    width: 1200px;
+    width: 1440px;
     height: 104px;
     display: flex;
     justify-content: space-between;
@@ -16,7 +16,7 @@
 }
 
 #header .h_bot{
-    width: 1200px;
+    width: 1440px;
     height: 63px;
     margin: 0 auto;
     
