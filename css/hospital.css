@@ -608,6 +608,10 @@
     top: 0;
 }
 
+.in2_list3 img{
+    opacity: 0;
+}
+
 .in2_list4 img{
     opacity: 0;
 }
@@ -618,6 +622,10 @@
 
 .in2_list6 img{
     opacity: 0;
+}
+
+.in2_list3:hover img{
+    opacity: 1;
 }
 
 .in2_list4:hover img{
