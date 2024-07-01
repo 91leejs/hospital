@@ -406,6 +406,11 @@
     ;
 }
 
+.cont8_inner div a:hover{
+    background-color: blue;
+    text-decoration: underline;
+}
+
 .cont8_inner h3{
     font-size: 30px;
     padding-bottom: 30px;
