@@ -4,9 +4,9 @@
     width: 100%;
 }
 
-.header{}
+#header{}
 
-.header .h_top{
+#header .h_top{
     margin: 0 auto;
     width: 1200px;
     height: 104px;
@@ -15,7 +15,7 @@
     align-items: center;
 }
 
-.header .h_bot{
+#header .h_bot{
     width: 1200px;
     height: 63px;
     margin: 0 auto;
@@ -77,6 +77,8 @@
 }
 
 .cont1{
+    margin: 0 auto;
+    width: 1200px;
     height: 747px;
     text-align: center;
 }
@@ -143,7 +145,6 @@
 }
 
 .cont2{
-    width: 1920px;
     height: 346px;
     padding: 100px 0;
 }
@@ -376,11 +377,10 @@
 }
 
 .cont8_inner{
-    width: 900px;
-    height: 330px;
-    margin: 0 auto;
+    width: 1000px;
+    margin-left: 550px;
     padding-top: 50px;
-    padding-left: 190px;
+    padding-left: 200px;
 }
 
 .cont8_inner h2{
@@ -446,7 +446,9 @@
     display: block;
 }
 
-.c9_sub1{}
+.c9_sub1{
+    width: 460px;
+}
 
 .c9_sub1 li{
     margin: 20px 0;
@@ -457,7 +459,8 @@
     display: block;
 }
 
-.c9_sub2{  
+.c9_sub2{
+    width: 460px;
 }
 
 .c9_sub2 li{
@@ -483,7 +486,7 @@
 .c9_list1 > a{
     display: block;
     border-bottom: 1px solid black;
-    width: 180px;
+    width: 200px;
     text-align: center;
     margin-bottom: 30px;
     font-size: 20px;
@@ -585,6 +588,11 @@
 .c9_inner2 ul li a:hover{
     background-color: lightgray;
     color: black;
+    
+}
+
+.c9_inner2 ul li a:hover span{
+    border: 2px solid black;
 }
 
 .c9_inner2 ul li img{
@@ -713,7 +721,9 @@
 
 .footer_bot_inner p{
     float: right;
-    line-height: 2;
+    line-height: 2.5;
+    font-size: 17px;
+    
 }
 
 .footer_bot_inner p span{
